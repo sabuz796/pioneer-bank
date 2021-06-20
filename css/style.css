@@ -1,0 +1,45 @@
+body {
+  margin: 100px;
+}
+
+.submit-area {
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
+  padding: 40px;
+  border-radius: 10px;
+  width: 800px;
+  margin: 80px auto;
+}
+
+#transaction-area {
+  display: none;
+}
+
+#transaction-area .balance-sheet {
+  margin-top: 60px;
+}
+
+#transaction-area .balance-up-down {
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+
+#transaction-area .balance-up-down p {
+  font-size: 40px;
+}
+
+#transaction-area .deposit-color {
+  background-color: #6a5acd;
+}
+
+#transaction-area .withdraw-color {
+  background-color: #ffa07a;
+}
+
+#transaction-area .input-box {
+  margin-top: 80px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
+}
